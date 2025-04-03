@@ -58,7 +58,8 @@ dependencies {
     annotationProcessor("androidx.room:room-compiler:$room_version")
 
     ksp("androidx.room:room-compiler:$room_version")
-
+    implementation ("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
+    implementation ("androidx.room:room-ktx:2.6.1")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
